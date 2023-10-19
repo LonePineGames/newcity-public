@@ -1,0 +1,34 @@
+uniform sampler2D inTexture;
+uniform sampler2DShadow shadowMap;
+uniform sampler2D lightingTex;
+uniform sampler2D illuminationTexture;
+uniform usampler2D flagsTexture;
+uniform sampler2D paletteTexture;
+uniform sampler2D blueNoiseTexture;
+uniform sampler2D mapTexture;
+uniform vec3 LightColor;
+uniform vec3 lightDirection_cameraSpace;
+uniform vec3 cameraPosition_worldSpace;
+uniform vec2 screenSize;
+uniform float illuminationStrength;
+uniform float mapSize;
+uniform float distanceFactor;
+uniform float invZoom;
+uniform sampler2D heatMapTexture;
+uniform int heatmapData;
+uniform vec3 guide;
+uniform vec3 skyColor;
+uniform float time;
+uniform float tide;
+uniform float snow;
+uniform float rainAmount;
+uniform float windSpeed;
+uniform float pollutionIntensity;
+uniform uint globalFlags;
+
+uniform mat4 VP;
+uniform mat4 V;
+uniform mat4 depthVP;
+uniform mat4 DepthBiasVP;
+uniform mat4 lightingBiasVP;
+

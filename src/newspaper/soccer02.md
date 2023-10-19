@@ -1,0 +1,5 @@
+$(function() team1 = randomTeam(); return team1 end)()$ Lose to $(function() team2 = randomTeam(); return team2 end)()$ $formatInt(randomInt(3,4))$-2
+
+![](newspaper/images/soccer01.png)
+
+Where there's a will, there's a way. A poignant phrase for the $cityName()$ $team2$ to dwell on as they lick their wounds from the narrow loss to the $randomCityName()$ $team1$ in Saturday's soccer spectacular. Out of the gate they found themselves at a loss, as the $team1$'s strikers took control of the ball and only relinquished it to put shots on goal. While the $team2$ goalie $randomMansName()$ did his level best to keep the ball out of the goal, including numerous daring dives and tumbles to the tune of $formatInt(randomInt(8,12))$ shots on goal, it simply wasn't enough to turn the game around. After two clean goals from rookie striker $randomMansName()$ in the second half which seemed to bring some fire back to their game, $team2$ ultimately walked off the field planning to regroup and reconsider their path to the championship. 

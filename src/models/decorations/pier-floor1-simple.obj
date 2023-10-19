@@ -1,0 +1,14 @@
+# Blender v2.83.4 OBJ File: 'decos.blend'
+# www.blender.org
+o IndustrialCatWalk_PipeStraightTillable_Cube.001_IndustrialC.001_IndustrialCatWalk_PipeStraightTillable_Cube.001_IndustrialC.006
+v 0.000000 4.253028 9.999991
+v 0.000000 4.253046 -9.999979
+v -19.999638 4.253028 10.000021
+v -19.999638 4.253046 -9.999959
+vt 0.179688 0.882812
+vt 0.179688 0.882812
+vt 0.179688 0.882812
+vt 0.179688 0.882812
+vn 0.0000 1.0000 0.0000
+s 1
+f 1/1/1 2/2/1 4/3/1 3/4/1

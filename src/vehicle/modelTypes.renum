@@ -1,0 +1,11 @@
+  RENUM(  VhTypePrivate
+) RENUM(  VhTypeTruck
+) RENUM(  VhTypeTruckFront
+) RENUM(  VhTypeTruckMiddle
+) RENUM(  VhTypeBus
+) RENUM(  VhTypeTrain
+) RENUM(  VhTypeTrainFront
+) RENUM(  VhTypeTrainMiddle
+) RENUM(  VhTypeWanderer
+)
+

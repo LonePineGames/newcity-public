@@ -1,0 +1,27 @@
+LP_ICON ICON "./textures/icon.ico"
+
+/*
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "Lone Pine Games"
+      VALUE "FileDescription", "NewCity"
+      VALUE "FileVersion", "0.0"
+      VALUE "InternalName", "newcity"
+      VALUE "LegalCopyright", "Copyright 2019 Lone Pine Games"
+      VALUE "OriginalFilename", "newcity.exe"
+      VALUE "ProductName", "NewCity"
+      VALUE "ProductVersion", "0.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
+END
+*/

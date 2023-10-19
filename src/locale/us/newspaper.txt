@@ -1,0 +1,77 @@
+Tribune
+Herald
+Times
+Sun-Times
+Today
+Journal
+Post
+Star
+Globe
+Gazette
+Courant
+Register Star
+Post-Gazette
+Eagle
+Mail
+Daily Mail
+Daily
+Recorder
+Record
+Review
+Bulletin
+Sentinel
+Courier
+Observer
+Dispatch
+Enquirer
+Standard
+Advocate
+Advertiser
+Mercury
+Free Press
+Post-News
+Item
+Picayune
+Ledger
+Messenger
+Mirror
+Newsday
+Telegraph
+Signal
+Sentinel
+Sentry
+Statesman
+Sun
+Tabloid
+Independent
+News
+Broadsheet
+Voice
+Banner
+Beacon
+Bee
+Brief
+Bugle
+Chronicle
+Citizen
+Constitution
+Current
+Daily Mirror
+Daily News
+Daily Sun
+Daily Express
+Express
+Examiner
+Express
+Eye
+News Eye
+Monitor
+Reformer
+Optimist
+Morning News
+Commentator
+Outlook
+Freelancer
+World News
+World Times
+

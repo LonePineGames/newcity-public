@@ -1,0 +1,1 @@
+CEnableCameraMovement = false

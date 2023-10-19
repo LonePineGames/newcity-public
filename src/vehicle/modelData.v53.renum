@@ -1,0 +1,12 @@
+  RENUM( VhSedan
+) RENUM( VhSUV
+) RENUM( VhPickup
+) RENUM( VhSport
+) RENUM( VhHatchback
+) RENUM( VhBoxTruck
+) RENUM( VhSemiTractor
+) RENUM( VhSemiTrailer
+) RENUM( VhBus
+) RENUM( VhIntercityPassenger
+)
+

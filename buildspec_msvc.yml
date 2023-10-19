@@ -1,0 +1,33 @@
+version: 0.2
+
+env:
+  git-credential-helper: yes
+
+phases:
+  install:
+    commands:
+      - echo Install_phase_entered
+      - mkdir C:\src
+      - cd C:\src\
+      - git clone https://github.com/Microsoft/vcpkg
+      - C:\src\vcpkg\bootstrap-vcpkg.bat
+      - echo Installing_Boost
+      - C:\src\vcpkg\vcpkg install boost
+      - echo Installing_GLFW
+      - C:\src\vcpkg\vcpkg install glfw3
+  pre_build:
+    commands:
+      - echo Pre-build phase entered
+      - git config credential.helper '!f(){echo username=lonepine-cibot; echo "password=Ys6ySSqhyikWFSU";};f'
+      - git lfs pull
+  build:
+    commands:
+      - echo Build phase entered
+      - cd src/ && ./windows.sh
+  post_build:
+    commands:
+      - echo Post build phase entered
+artifacts:
+  files:
+    - NewCity.zip
+

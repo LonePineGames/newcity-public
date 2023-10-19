@@ -1,0 +1,79 @@
+addTreeType({
+  code = "TreePalm",
+  weight = 5,
+  wind = true,
+  biomes = "alpine,desert",
+  mesh = "models/decorations/palm-trees-terrain.obj",
+  simpleMesh = "models/decorations/palm-tree-terrain-simple.obj",
+});
+
+addTreeType({
+  code = "TreePalm2",
+  weight = 1,
+  wind = true,
+  biomes = "alpine,desert",
+  mesh = "models/decorations/palm-trees2.obj",
+  simpleMesh = "models/decorations/palm-tree2-simple.obj",
+});
+
+addTreeType({
+  code = "TreePalm3",
+  weight = 1,
+  wind = true,
+  biomes = "alpine,desert",
+  mesh = "models/decorations/palm-trees3.obj",
+  simpleMesh = "models/decorations/palm-tree3-simple.obj",
+});
+
+addTreeType({
+  code = "TreeStatue1",
+  weight = 0.05,
+  wind = false,
+  biomes = "alpine,desert",
+  mesh = "models/decorations/tree-statue1.obj",
+  simpleMesh = "models/decorations/tree-statue1-simple.obj",
+});
+
+addTreeType({
+  code = "TreeChess1",
+  weight = 0.05,
+  wind = false,
+  biomes = "alpine,desert",
+  mesh = "models/decorations/tree-chess1.obj",
+  simpleMesh = "models/decorations/tree-chess1-simple.obj",
+});
+
+
+addTreeType({
+  code = "TreeChess2",
+  weight = 0.05,
+  wind = false,
+  biomes = "alpine,desert",
+  mesh = "models/decorations/tree-chess2.obj",
+  simpleMesh = "models/decorations/tree-chess2-simple.obj",
+});
+
+------------
+-- Desert --
+------------
+
+addTreeType({
+  code = "TreeCactus1",
+  weight = 0.05,
+  wind = true,
+  biomes = "alpine,desert",
+  mesh = "models/decorations/cactus1.obj",
+  simpleMesh = "models/decorations/cactus1-simple.obj",
+});
+
+addTreeType({
+  code = "TreeCactus2",
+  weight = 0.05,
+  wind = true,
+  biomes = "alpine,desert",
+  mesh = "models/decorations/cactus2.obj",
+  simpleMesh = "models/decorations/cactus2-simple.obj",
+});
+
+
+

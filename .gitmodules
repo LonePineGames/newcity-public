@@ -1,0 +1,13 @@
+[submodule "external/openal-soft"]
+	path = external/openal-soft
+	url = https://github.com/kcat/openal-soft.git
+[submodule "external/boost"]
+	path = external/boost
+	url = https://github.com/boostorg/boost.git
+[submodule "external/curl"]
+	path = external/curl
+	url = https://github.com/curl/curl.git
+[submodule "external/gcc"]
+	path = external/gcc
+	url = https://github.com/gcc-mirror/gcc.git
+	branch = master

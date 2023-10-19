@@ -1,0 +1,35 @@
+version: 0.2
+
+env:
+  git-credential-helper: yes
+
+phases:
+  install:
+    commands:
+      - echo Installing on `uname -a`
+      - echo Installing packages for build
+      - apt-get update
+      - apt-get install -y cmake mesa-common-dev libgl1-mesa-dev libglu1-mesa-dev build-essential x11-xserver-utils xorg-dev libboost-dev libpthread-stubs0-dev libboost-tools-dev libboost-thread-dev libopenal-dev unzip
+      #- apt-get install -y cmake mesa-common-dev libgl1-mesa-dev libglu1-mesa-dev build-essential x11-xserver-utils xorg-dev libpthread-stubs0-dev libopenal-dev mingw-w64 unzip
+        #libboost-dev libboost-tools-dev libboost-thread-dev
+      - echo '#!/bin/bash' > /usr/local/bin/ok; echo 'if [[ "$CODEBUILD_BUILD_SUCCEEDING" == "0" ]]; then exit 1; else exit 0; fi' >> /usr/local/bin/ok; chmod +x /usr/local/bin/ok
+  pre_build:
+    commands:
+      - ok && echo Pre-build
+      - ok && ./setup_version.sh
+  build:
+    commands:
+      - echo Build started on `date`
+      - cd src/ && ./package.sh
+  post_build:
+    commands:
+      - ok && echo Build completed on `date`
+      - ok && echo Uploading...
+      - ok && cd .. && ./upload_to_steam.sh
+        #- ok && ./package.sh
+        #- ok || echo Build failed; not packaging.
+        #- cd ..
+artifacts:
+  files:
+    - NewCity.zip
+

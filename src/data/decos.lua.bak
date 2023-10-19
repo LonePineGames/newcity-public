@@ -1,0 +1,4165 @@
+-- Note: you must define decoration groups before decorations
+
+addBuildingDecorationGroup({
+  code = "DecoGrpStructure",
+  name = "Structure"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpFloor",
+  name = "Floor"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpShrubs",
+  name = "Shrubs"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpPillars",
+  name = "Pillars"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpWalls",
+  name = "Walls"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpFarm",
+  name = "Farm"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpTrees",
+  name = "Trees"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpPark",
+  name = "Park"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpBeach",
+  name = "Beach"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpDocks",
+  name = "Docks"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpBoats",
+  name = "Boats"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpAmenity",
+  name = "Amenity"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpIndustrial",
+  name = "Industrial"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpResidential",
+  name = "Residential"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpPipes",
+  name = "Pipes"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpAntennas",
+  name = "Antennas"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpCatwalks",
+  name = "Catwalks"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpVehicles",
+  name = "Vehicles"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpSigns",
+  name = "Signs"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpVfx",
+  name = "Visual Effects"
+})
+
+addBuildingDecorationGroup({
+  code = "DecoGrpTest",
+  name = "Test"
+})
+
+addBuildingDecoration({
+  code = "DecoRetailSignRed",
+  name = "Retail Sign (Red)",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-red.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRetailSignWhite",
+  name = "Retail Sign (White)",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-white.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoRetailSignWhite1",
+  name = "Retail Sign (White)1",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-white1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRetailSignYellow",
+  name = "Retail Sign (Yellow)",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-yellow.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRetailSignGreen",
+  name = "Retail Sign (Green)",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-green.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRetailSignTheater1",
+  name = "Retail Sign Theater1",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-theater1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRetailSignTheater2",
+  name = "Retail Sign Theater2",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-theater2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRetailSignTheater3",
+  name = "Retail Sign Theater3",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-theater3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRetailSignTheater5",
+  name = "Retail Sign Theater5",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-theater5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBillboard",
+  name = "Billboard",
+  group = "DecoGrpSigns",
+  wind = 0.1,
+  mesh = "models/decorations/billboard.obj",
+  simpleMesh = "models/decorations/billboard-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBillboardDonut",
+  name = "Billboard Donut Store",
+  group = "DecoGrpSigns",
+  wind = 0.1,
+  mesh = "models/decorations/billboard-donut.obj",
+  simpleMesh = "models/decorations/billboard-donut-simple.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoRetailSignShop",
+  name = "Retail Sign Shop",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-shop.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRetailSignShop1",
+  name = "Retail Sign Shop1",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/retail-sign-shop1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHealthSign",
+  name = "Health Sign",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/health-sign.obj",
+  simpleMesh = "models/decorations/health-sign-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSignLonePine",
+  name = "Sign LonePine",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/sign-lonepine.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHealthSign1",
+  name = "Health Sign1",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/health-sign1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoDome",
+  name = "Dome",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/dome.obj",
+  simpleMesh = "models/decorations/dome-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRoundStructure1",
+  name = "Round Structure",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/round-structure-1.obj",
+  simpleMesh = "models/decorations/round-structure-1-simple.obj",
+  scale = "x,y",
+})
+
+addBuildingDecoration({
+  code = "DecoBeam",
+  name = "Beam",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/beam.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoBeamSmall",
+  name = "Small Beam",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/beam-small.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoShed",
+  name = "Shed",
+  group = "DecoGrpFarm",
+  wind = 0.1,
+  mesh = "models/decorations/shed.obj",
+  simpleMesh = "models/decorations/shed-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSilo",
+  name = "Silo",
+  group = "DecoGrpFarm",
+  wind = 0.1,
+  mesh = "models/decorations/silo.obj",
+  simpleMesh = "models/decorations/silo-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWoodenTurbine",
+  name = "Windmill",
+  group = "DecoGrpFarm",
+  wind = 0.1,
+  mesh = "models/decorations/wooden-turbine.obj",
+  simpleMesh = "models/decorations/wooden-turbine-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHaystackA",
+  name = "Haystack A",
+  group = "DecoGrpFarm",
+  mesh = "models/decorations/haystacka.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHaystackB",
+  name = "Haystack B",
+  group = "DecoGrpFarm",
+  mesh = "models/decorations/haystackb.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFarmFields",
+  name = "Farm Fields",
+  group = "DecoGrpFarm",
+  wind = 1,
+  mesh = "models/decorations/farm-fields.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoFarmCircular",
+  name = "Circular Farms",
+  group = "DecoGrpFarm",
+  wind = 1,
+  mesh = "models/decorations/circular-farm.obj",
+  simpleMesh = "models/decorations/circular-farm-simple.obj",
+  scale = "x,y",
+})
+
+addBuildingDecoration({
+  code = "DecoFarmCircularGrass",
+  name = "Circular Grass",
+  group = "DecoGrpFarm",
+  wind = 1,
+  mesh = "models/decorations/circular-grass.obj",
+  simpleMesh = "models/decorations/circular-grass-simple.obj",
+  scale = "x,y",
+})
+
+addBuildingDecoration({
+  code = "DecoFarmIrrigation",
+  name = "Irrigation Structure",
+  group = "DecoGrpFarm",
+  wind = 0.5,
+  mesh = "models/decorations/irrigation.obj",
+  simpleMesh = "models/decorations/irrigation-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFarmSoil",
+  name = "Farm Soil",
+  group = "DecoGrpFarm",
+  mesh = "models/decorations/farm-soil.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFarmSoilBig",
+  name = "Farm Soil Big",
+  group = "DecoGrpFarm",
+  mesh = "models/decorations/farm-soil-big.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGreenhouseRoof",
+  name = "Greenhouse Roof",
+  group = "DecoGrpFarm",
+  mesh = "models/decorations/greenhouse-roof.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail2",
+  name = "Floor White",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/building-detail2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPillar",
+  name = "Pillar",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/pillar.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPillarMemorial",
+  name = "Pillar Memorial",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/pillar-memorial.obj",
+})
+addBuildingDecoration({
+  code = "DecoPillar2",
+  name = "Pillar Small",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/pillar2.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoPillarSquare",
+  name = "Pillar Square",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/pillar-square.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRowHouseRoof",
+  name = "Rowhouse Roof",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/rowhouse-roof.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRowHouseRoofB",
+  name = "Rowhouse Roof B",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/rowhouse-roofb.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRowHouseWallB",
+  name = "Rowhouse Wall B",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/rowhouse-wallb.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail1",
+  name = "Ceilling",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/building-detail1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPillar1",
+  name = "Pillar Concrete 1",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/pillar1.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoPillar2",
+  name = "Pillar Marble 2",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/pillar2.obj",
+  scale = "x,y",
+})
+
+addBuildingDecoration({
+  code = "DecoPillar5",
+  name = "Pillar Marble 1",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/pillar3.obj",
+  scale = "x,y",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail3",
+  name = "Pillar Marble",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/building-detail3.obj",
+  scale = "z,",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail4",
+  name = "Building Detail 4",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/building-detail4.obj",
+  scale = "z,",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail9",
+  name = "PillarConcrete",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/building-detail9.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoReinforcedPillar",
+  name = "Reinforced Pillar",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/reinforced-pillar.obj",
+  simpleMesh = "models/decorations/reinforced-pillar-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoReinforcedPillar1",
+  name = "Reinforced Pillar1",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/reinforced-pillar1.obj",
+  simpleMesh = "models/decorations/reinforced-pillar1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoReinforcedPillar2",
+  name = "Reinforced Pillar2",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/reinforced-pillar2.obj",
+  simpleMesh = "models/decorations/reinforced-pillar2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoReinforcedWall",
+  name = "Reinforced Pillar1",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/reinforced-wall.obj",
+  simpleMesh = "models/decorations/reinforced-wall-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoMarbleWall",
+  name = "Marble Wall",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/marble-wall.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoCollumns",
+  name = "Collumns",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/collumns-1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCollumns2",
+  name = "Collumns 2",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/collumns-2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCollumnsHalf",
+  name = "Half Collumns",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/collumns-half.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCollumnsTop",
+  name = "Columns Top Piece",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/collumns-top.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoCollumnsTop1",
+  name = "Columns Top Piece1",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/collumns-top1.obj",
+  scale = "x",
+})
+
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail10",
+  name = "Small Fence",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/building-detail10.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail11",
+  name = "Concrete Block",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/building-detail11.obj",
+  scale = "xy",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail12",
+  name = "Ceilling2",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/building-detail12.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail13",
+  name = "Building Topper1",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/building-detail13.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail14",
+  name = "Building Topper2",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/building-detail14.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail15",
+  name = "Pillar Concrete Dark",
+  group = "DecoGrpPillars",
+  mesh = "models/decorations/building-detail15.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail5",
+  name = "Fence",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/building-detail5.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail5",
+  name = "Arch",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/building-detail5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail6",
+  name = "Arch 2",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/building-detail6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail7",
+  name = "Concrete Wall",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/building-detail7.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoConcreteWall",
+  name = "Concrete Wall 2",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/concrete-wall.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoBrickWall",
+  name = "Brick Wall",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/brick-wall.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoBrickWallDoor",
+  name = "Brick Wall Door",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/brick-wall-door.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoCardboardWall",
+  name = "Cardboard Wall",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/cardboard-wall.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingDetail8",
+  name = "Concrete Foundation",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/building-detail8.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingStair",
+  name = "Building Stair",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/stair.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingStair1",
+  name = "Building Stair1",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/stair1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingStair2",
+  name = "Building Stair2",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/stair2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingStair3",
+  name = "Building Stair3",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/stair3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingStair4",
+  name = "Building Stair4",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/stair4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingStair5",
+  name = "Building Stair5",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/stair5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoStoreRoof",
+  name = "Store Roof",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/store-roof.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoStoreRoof1",
+  name = "Store Roof1",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/store-roof1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoStoreRoof2",
+  name = "Store Roof2",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/store-roof2.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoStoreRoof3",
+  name = "Store Roof3",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/store-roof3.obj",
+  scale = "x,y",
+})
+
+addBuildingDecoration({
+  code = "DecoStoreDonut1",
+  name = "Store Roof Donut",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/store-donut.obj",
+  simpleMesh = "models/decorations/store-donut-simple",
+})
+
+addBuildingDecoration({
+  code = "DecoMarbleFence",
+  name = "Marble Fence",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/marble-fence.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuildingSupport",
+  name = "Building Support",
+  group = "DecoGrpStructure",
+  mesh = "models/decorations/building-support.obj",
+  simpleMesh = "models/decorations/building-support-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkEntrance1",
+  name = "Park Entrance 1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-entrance1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkEntrance2",
+  name = "Park Entrance 2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-entrance2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkEntrance3",
+  name = "Park Entrance 3",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-entrance3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkEntrance4",
+  name = "Park Entrance 4",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-entrance4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkTent1",
+  name = "Park Tent 1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-tent1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkTent2",
+  name = "Park Tent 2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-tent2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkTent3",
+  name = "Park Tent 3",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-tent3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkTent4",
+  name = "Park Tent 4",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-tent4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkTent5",
+  name = "Park Tent 5",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-tent5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkTent6",
+  name = "Park Tent 6",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-tent6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkTent7",
+  name = "Park Tent 7",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-tent7.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkTent8",
+  name = "Park Tent 8",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-tent8.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkTent9",
+  name = "Park Tent 9",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-tent9.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFerrisWheel1",
+  name = "Ferris Wheel 1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/ferris-wheel1.obj",
+  simpleMesh = "models/decorations/ferris-wheel1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFerrisWheel2",
+  name = "Ferris Wheel 2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/ferris-wheel2.obj",
+  simpleMesh = "models/decorations/ferris-wheel.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFerrisWheel3",
+  name = "Ferris Wheel 3",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/ferris-wheel3.obj",
+  simpleMesh = "models/decorations/ferris-wheel.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFerrisWheel4",
+  name = "Ferris Wheel 4",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/ferris-wheel4.obj",
+  simpleMesh = "models/decorations/ferris-wheel.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRollerCoaster1",
+  name = "Roller Coaster 1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rollercoaster1.obj",
+  simpleMesh = "models/decorations/rollercoaster1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRollerCoaster2",
+  name = "Roller Coaster 2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rollercoaster2.obj",
+  simpleMesh = "models/decorations/rollercoaster2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRollerCoaster3",
+  name = "Roller Coaster 3",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rollercoaster3.obj",
+  simpleMesh = "models/decorations/rollercoaster3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRollerCoaster4",
+  name = "Roller Coaster 4",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rollercoaster4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRollerCoaster5",
+  name = "Roller Coaster 5",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rollercoaster5.obj",
+  simpleMesh = "models/decorations/rollercoaster5-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRollerCoaster6",
+  name = "Roller Coaster 6",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rollercoaster6.obj",
+  simpleMesh = "models/decorations/rollercoaster6-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRollerCoaster7",
+  name = "Roller Coaster 7",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rollercoaster7.obj",
+  simpleMesh = "models/decorations/rollercoaster7-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRollerCoaster8",
+  name = "Roller Coaster 8",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rollercoaster8.obj",
+  simpleMesh = "models/decorations/rollercoaster8-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRollerCoaster9",
+  name = "Roller Coaster 9",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rollercoaster9.obj",
+  simpleMesh = "models/decorations/rollercoaster9-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCarousel1",
+  name = "Carousel1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/carousel1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFlyingCarousel",
+  name = "Flying Carousel",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/flying-carousel.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBouncyCastle1",
+  name = "Bouncy Castle 1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/bouncy-castle1.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoBouncyCastle2",
+  name = "Bouncy Castle 2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/bouncy-castle2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBallPit1",
+  name = "Ball Pit1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/ball-pit1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBallPit2",
+  name = "Ball Pit2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/ball-pit2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachStand8",
+  name = "Park Food Stand",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/beach-stand8.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrampoline1",
+  name = "Trampoline 1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/trampoline1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrampoline2",
+  name = "Trampoline 2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/trampoline2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoStatue1",
+  name = "Statue1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/statue1.obj",
+  simpleMesh = "models/decorations/statue1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoStatue2",
+  name = "Statue2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/statue2.obj",
+  simpleMesh = "models/decorations/statue2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoStatue3",
+  name = "Statue3",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/statue3.obj",
+  simpleMesh = "models/decorations/statue3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPavilion1",
+  name = "Pavilion1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/pavilion1.obj",
+  simpleMesh = "models/decorations/pavilion1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPavilion2",
+  name = "Pavilion2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/pavilion2.obj",
+  simpleMesh = "models/decorations/pavilion2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPavilion3",
+  name = "Pavilion3",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/pavilion3.obj",
+  simpleMesh = "models/decorations/pavilion3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTennisField",
+  name = "Tennis Field",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/tennis-field.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFountain",
+  name = "Fountain",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/fountain.obj",
+  simpleMesh = "models/decorations/fountain-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFountainBig",
+  name = "Fountain Big",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/fountain-big.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFountainBig1",
+  name = "Fountain Big1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/fountain-big1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFountainSquare",
+  name = "Fountain Square",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/fountain-square.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBasketballCourt",
+  name = "Basketball Court",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/basketball-court.obj",
+  simpleMesh = "models/decorations/basketball-court-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSoccerField",
+  name = "Soccer Field",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/soccer-field.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoIceRink",
+  name = "Ice Rink",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/ice-rink.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFlower1",
+  name = "Flower1",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/flower-carnations.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFlower2",
+  name = "Flower2",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/flower-carnations1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindTurbine",
+  name = "Wind Turbine",
+  group = "DecoGrpFarm",
+  wind = 0.1,
+  mesh = "models/decorations/wind-turbine.obj",
+  simpleMesh = "models/decorations/wind-turbine-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkBench",
+  name = "Park Bench",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-bench.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPedestal",
+  name = "Pedestal",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/pedestal1.obj",
+  simpleMesh = "models/decorations/pedestal1-simple.obj"
+})
+
+addBuildingDecoration({
+  code = "DecoParkBench2",
+  name = "Park Bench2",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/park-bench2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLifeguardChair",
+  name = "Lifeguard Chair",
+  group = "DecoGrpPark",
+  wind = 0.1,
+  mesh = "models/decorations/lifeguard-chair.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPooChair",
+  name = "Pool Chair",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/pool-chair.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPool",
+  name = "Pool",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/pool.obj",
+  simpleMesh = "models/decorations/pool-simple.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoPool1",
+  name = "Pool1",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/pool1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRubberDuck",
+  name = "Rubber Duck",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/rubber-duck.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWaterTower",
+  name = "Water Tower",
+  group = "DecoGrpIndustrial",
+  wind = 0.1,
+  mesh = "models/decorations/water-tower.obj",
+  simpleMesh = "models/decorations/water-tower-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs",
+  name = "Shrubs",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/shrubs.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoLighthouse",
+  name = "Lighthouse",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/lighthouse.obj",
+  simpleMesh = "models/decorations/lighthouse-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoDocksCrane1",
+  name = "Container Crane",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/docks-crane1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoDocksCrane1",
+  name = "Container Crane",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/docks-crane1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoDocksCrane1",
+  name = "Container Crane",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/docks-crane1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoDocksCraneRail",
+  name = "Container Crane Rail",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/crane-rail.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoMooringPost",
+  name = "Boat Mooring Post",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/mooring-post1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoMooringPost2",
+  name = "Boat Mooring Post 2",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/mooring-post2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer1",
+  name = "Ship Container Red",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container1.obj",
+  simpleMesh = "models/decorations/container1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer2",
+  name = "Ship Container Blue",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container2.obj",
+  simpleMesh = "models/decorations/container2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer3",
+  name = "Ship Container Green",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container3.obj",
+  simpleMesh = "models/decorations/container3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer4",
+  name = "Ship Container Olive",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container4.obj",
+  simpleMesh = "models/decorations/container4-simple.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoShipContainer9",
+  name = "Ship Container Yellow",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container9.obj",
+  simpleMesh = "models/decorations/container9-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer10",
+  name = "Ship Container White",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container10.obj",
+  simpleMesh = "models/decorations/container10-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer11",
+  name = "Ship Container Dark Blue",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container11.obj",
+  simpleMesh = "models/decorations/container11-simple.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoShipContainer5",
+  name = "Ship Container Red Small",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container5.obj",
+  simpleMesh = "models/decorations/container5-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer6",
+  name = "Ship Container Blue Small",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container6.obj",
+  simpleMesh = "models/decorations/container6-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer7",
+  name = "Ship Container Green Small",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container7.obj",
+  simpleMesh = "models/decorations/container7-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer8",
+  name = "Ship Container Olive Small",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container8.obj",
+  simpleMesh = "models/decorations/container8-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer12",
+  name = "Ship Container Yellow Small",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container12.obj",
+  simpleMesh = "models/decorations/container12-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer13",
+  name = "Ship Container White Small",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container13.obj",
+  simpleMesh = "models/decorations/container13-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShipContainer14",
+  name = "Ship Container Dark Blue Small",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/container14.obj",
+  simpleMesh = "models/decorations/container14-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShark",
+  name = "Fish - Shark",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/shark.obj",
+  simpleMesh = "models/decorations/shark-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSwordfish",
+  name = "Fish - Swordfish",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/swordfish.obj",
+  simpleMesh = "models/decorations/swordfish-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSailfish",
+  name = "Fish - Sailfish",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/sailfish.obj",
+  simpleMesh = "models/decorations/sailfish-simple.obj",
+})
+addBuildingDecoration({
+  code = "DecoDocksFloor1",
+  name = "Docks Floor",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/docks-floor1.obj",
+  simpleMesh = "models/decorations/docks-floor1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoDocksFloor2",
+  name = "Docks Floor 2",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/docks-floor2.obj",
+  simpleMesh = "models/decorations/docks-floor1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier1",
+  name = "Pier - Wood",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier1.obj",
+  simpleMesh = "models/decorations/pier1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier2",
+  name = "Pier - Wood Tee",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier2.obj",
+  simpleMesh = "models/decorations/pier2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier9",
+  name = "Pier - Wood Tee 2",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier9.obj",
+  simpleMesh = "models/decorations/pier9-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier10",
+  name = "Pier - Wood Tee 3",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier12.obj",
+  simpleMesh = "models/decorations/pier10-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier13",
+  name = "Pier - Wood Tee 4",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier13.obj",
+  simpleMesh = "models/decorations/pier10-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier16",
+  name = "Pier - Wood Tee 5",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier16.obj",
+  simpleMesh = "models/decorations/pier10-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier17",
+  name = "Pier - Wood Wide",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier17.obj",
+  simpleMesh = "models/decorations/pier17-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier18",
+  name = "Pier - Concrete Wide",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier18.obj",
+  simpleMesh = "models/decorations/pier18-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier3",
+  name = "Pier - Wood Cross 1",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier3.obj",
+  simpleMesh = "models/decorations/pier3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier4",
+  name = "Pier - Wood Cross 2",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier4.obj",
+  simpleMesh = "models/decorations/pier4-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPierFloor1",
+  name = "Pier - Wood Floor",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier-floor1.obj",
+  simpleMesh = "models/decorations/pier-floor1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPierFloor2",
+  name = "Pier - Wood Wide",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier-floor2.obj",
+  simpleMesh = "models/decorations/pier-floor2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPierFloor5",
+  name = "Pier - Blue Fence",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier-floor5.obj",
+  simpleMesh = "models/decorations/pier-floor5-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPierFloor6",
+  name = "Pier - Blue Fence Floor",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier-floor6.obj",
+  simpleMesh = "models/decorations/pier-floor6-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier5",
+  name = "Pier - Concrete",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier5.obj",
+  simpleMesh = "models/decorations/pier5-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoS",
+  name = "Pier - Concrete Tee",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier6.obj",
+  simpleMesh = "models/decorations/pier6-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier10",
+  name = "Pier - Concrete Tee 2",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier10.obj",
+  simpleMesh = "models/decorations/pier10-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier11",
+  name = "Pier - Concrete Tee 3",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier11.obj",
+  simpleMesh = "models/decorations/pier9-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier14",
+  name = "Pier - Concrete Tee 4",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier14.obj",
+  simpleMesh = "models/decorations/pier9-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier15",
+  name = "Pier - Concrete Tee 5",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier15.obj",
+  simpleMesh = "models/decorations/pier9-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier7",
+  name = "Pier - Concrete Cross 1",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier7.obj",
+  simpleMesh = "models/decorations/pier7-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPier8",
+  name = "Pier - Concrete Cross 2",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier8.obj",
+  simpleMesh = "models/decorations/pier8-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPierFloor3",
+  name = "Pier - Concrete Floor",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier-floor3.obj",
+  simpleMesh = "models/decorations/pier-floor3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPierFloor4",
+  name = "Pier - Concrete Wide",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier-floor4.obj",
+  simpleMesh = "models/decorations/pier-floor4-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPierGazebo",
+  name = "Gazebo",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier-gazebo1.obj",
+  simpleMesh = "models/decorations/pier-gazebo1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPierGazebo2",
+  name = "Gazebo 2",
+  group = "DecoGrpDocks",
+  mesh = "models/decorations/pier-gazebo2.obj",
+  simpleMesh = "models/decorations/pier-gazebo2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoVolleyballNet",
+  name = "Volleyball Net",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/volleyball-net.obj",
+  simpleMesh = "models/decorations/volleyball-net-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella1",
+  name = "Umbrella - Corp 1",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella2",
+  name = "Umbrella - Corp 2",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella12",
+  name = "Umbrella - Corp Closed",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella12.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella3",
+  name = "Umbrella - Colorful",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella10",
+  name = "Umbrella - Colorful Closed",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella10.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella4",
+  name = "Umbrella - Blue Solid",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella7",
+  name = "Umbrella - Blue Bullseye",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella7.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella5",
+  name = "Umbrella - Peach Bullseye 1",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella6",
+  name = "Umbrella - Peach Bullseye 2",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella8",
+  name = "Umbrella - Yellow Bullseye",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella8.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella9",
+  name = "Umbrella - Olive Bullseye",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella9.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUmbrella11",
+  name = "Parasol - Yellow Bullseye",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/umbrella11.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachChair1",
+  name = "Beach Chair Blue/Yellow",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-chair1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachChair4",
+  name = "Beach Chair Recl Blue",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-chair4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachChair3",
+  name = "Beach Chair Blue Stripe",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-chair3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachChair9",
+  name = "Beach Chair Red",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-chair9.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachChair6",
+  name = "Beach Chair Recl Red",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-chair6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachChair2",
+  name = "Beach Chair Red Stripe",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-chair2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachChair5",
+  name = "Beach Chair Recl Red Strp",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-chair5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachChair7",
+  name = "Beach Chair Recl White",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-chair7.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachChair8",
+  name = "Beach Chair Recl Olive",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-chair8.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel1",
+  name = "Beach Towel Blue",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel6",
+  name = "Beach Towel Blue Stripe",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel2",
+  name = "Beach Towel Red",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel3",
+  name = "Beach Towel Olive",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel4",
+  name = "Beach Towel Green",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel5",
+  name = "Beach Towel Brown",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel6",
+  name = "Beach Towel Blue",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel7",
+  name = "Beach Towel Yellow",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel7.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel8",
+  name = "Beach Towel Olive",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel8.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel9",
+  name = "Beach Towel Blue",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel9.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel10",
+  name = "Beach Towel Rainbow",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel10.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachTowel11",
+  name = "Beach Towel Red",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-towel11.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSurfboard1",
+  name = "Surfboard Standing 1",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/surfboard1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSurfboard2",
+  name = "Surfboard Standing 2",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/surfboard2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSurfboard3",
+  name = "Surfboard Standing 3",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/surfboard3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSurfboard4",
+  name = "Surfboard Standing 4",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/surfboard4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSurfboard5",
+  name = "Surfboard Standing 5",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/surfboard5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLifeguardTower1",
+  name = "Lifeguard Tower Blue",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/lifeguard-tower1.obj",
+  simpleMesh = "models/decorations/lifeguard-tower1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLifeguardTower2",
+  name = "Lifeguard Tower White 1",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/lifeguard-tower2.obj",
+  simpleMesh = "models/decorations/lifeguard-tower1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLifeguardTower3",
+  name = "Lifeguard Tower White 2",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/lifeguard-tower3.obj",
+  simpleMesh = "models/decorations/lifeguard-tower1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLifeguardTower4",
+  name = "Lifeguard Tower4",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/lifeguard-tower4.obj",
+  simpleMesh = "models/decorations/lifeguard-tower1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachStand1",
+  name = "Beach Stand Red 1",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-stand1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachStand2",
+  name = "Beach Stand Red 2",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-stand2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachStand3",
+  name = "Beach Stand Green",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-stand3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachStand4",
+  name = "Beach Stand Yellow",
+  name = "Beach Stand 4",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-stand4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachStand5",
+  name = "Beach Stand White",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-stand5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachStand6",
+  name = "Beach Stand Icecream",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-stand6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachStand7",
+  name = "Beach Stand Ice Cream 2",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-stand7.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachBar1",
+  name = "Beach Bar",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-bar1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBeachBar2",
+  name = "Beach Bar 2",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/beach-bar2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuoy1",
+  name = "Buoy - Red",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/buoy1.obj",
+  simpleMesh = "models/decorations/buoy1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuoy2",
+  name = "Buoy - Yellow",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/buoy2.obj",
+  simpleMesh = "models/decorations/buoy2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuoy3",
+  name = "Buoy - No Wake",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/buoy3.obj",
+  simpleMesh = "models/decorations/buoy3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBuoy4",
+  name = "Buoy - Red Ball",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/buoy4.obj",
+  simpleMesh = "models/decorations/buoy4-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCampfire",
+  name = "Campfire",
+  group = "DecoGrpBeach",
+  mesh = "models/decorations/campfire.obj",
+  simpleMesh = "models/decorations/campfire.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFenceBlack",
+  name = "Fence Black",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/fence-black.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFenceBlackGate",
+  name = "Fence Black Gate",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/fence-black-gate.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoIceRinkFence",
+  name = "Ice Rink Fence",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/ice-rink-fence.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBasketballCourtFence",
+  name = "Basketball Court Fence",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/basketball-court-fence.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs1",
+  name = "Shrubs1",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs1.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs2",
+  name = "Shrubs2",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs2.obj",
+ scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs3",
+  name = "Shrubs3",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs3.obj",
+ scale = "xy",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs4",
+  name = "Shrubs4",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs4.obj",
+ scale = "xy",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs5",
+  name = "Shrubs5",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs5.obj",
+  simpleMesh = "models/decorations/shrubs5-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs6",
+  name = "Shrubs6",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs6.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs7",
+  name = "Shrubs7",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs7.obj",
+  simpleMesh = "models/decorations/shrubs7-simple.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs8",
+  name = "Shrubs8",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs8.obj",
+  simpleMesh = "models/decorations/shrubs8-simple.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs9",
+  name = "Shrubs9",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs9.obj",
+  simpleMesh = "models/decorations/shrubs9-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs10",
+  name = "Shrubs10",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs10.obj",
+  simpleMesh = "models/decorations/shrubs10-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs11",
+  name = "Shrubs11",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs11.obj",
+  simpleMesh = "models/decorations/shrubs11-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs12",
+  name = "Shrubs12",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs12.obj",
+  simpleMesh = "models/decorations/shrubs12-simple.obj",
+  scale = "x,y",
+})
+
+addBuildingDecoration({
+  code = "DecoShrubs13",
+  name = "Shrubs13",
+  group = "DecoGrpShrubs",
+  mesh = "models/decorations/shrubs13.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLampPost",
+  name = "Lamp Post",
+  group = "DecoGrpPark",
+  wind = 0.1,
+  mesh = "models/decorations/lamp-post.obj",
+  simpleMesh = "models/decorations/lamp-post-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLake",
+  name = "Lake",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/lake.obj",
+  simpleMesh = "models/decorations/lake.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLampPost1",
+  name = "Lamp Post 1",
+  group = "DecoGrpPark",
+  wind = 0.1,
+  mesh = "models/decorations/lamp-post1.obj",
+  simpleMesh = "models/decorations/lamp-post1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLampPost2",
+  name = "Lamp Post 2",
+  group = "DecoGrpPark",
+  wind = 0.1,
+  mesh = "models/decorations/lamp-post2.obj",
+  simpleMesh = "models/decorations/lamp-post2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLampPost3",
+  name = "Lamp Post 3",
+  group = "DecoGrpPark",
+  wind = 0.1,
+  mesh = "models/decorations/lamp-post3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLampPost4",
+  name = "Lamp Post 4",
+  group = "DecoGrpPark",
+  wind = 0.1,
+  mesh = "models/decorations/lamp-post4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPierLamps",
+  name = "Pier Lamps",
+  group = "DecoGrpPark",
+  wind = 0.1,
+  mesh = "models/decorations/pier-lamps.obj",
+  simpleMesh = "models/decorations/pier-lamps-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRoad",
+  name = "Road",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/road.obj",
+   simpleMesh = "models/decorations/road-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkPath",
+  name = "Park Path",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/park-path.obj",
+   simpleMesh = "models/decorations/park-path.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkPathCurve",
+  name = "Park Path Curve",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/park-path-curve.obj",
+   simpleMesh = "models/decorations/park-path-curve.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRoadAlternate",
+  name = "Road Alternate",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/road-alt.obj",
+   simpleMesh = "models/decorations/road-alt-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRoadAlternateHalf",
+  name = "Road Alternate Half",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/road-alt-half.obj",
+   simpleMesh = "models/decorations/road-alt-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRoadAlternateCurve",
+  name = "Road Alternate Curve",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/road-alt-curve.obj",
+   simpleMesh = "models/decorations/road-alt-curve-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRoadBasic",
+  name = "Road Basic",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/road-color.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRoadBasicCurve",
+  name = "Road Basic Curve",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/road-curve.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWoodenBridge",
+  name = "Wooden Bridge",
+  group = "DecoGrpPark",
+  mesh = "models/decorations/wooden-bridge.obj",
+   simpleMesh = "models/decorations/wooden-bridge-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoUniBanner",
+  name = "University Banner",
+  group = "DecoGrpAmenity",
+  mesh = "models/decorations/uni-banner.obj",
+simpleMesh = "models/decorations/uni-banner-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPoliceBarrier",
+  name = "Police Restricted Area",
+  group = "DecoGrpAmenity",
+  mesh = "models/decorations/police-restricted.obj",
+simpleMesh = "models/decorations/police-restricted-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPineTree1",
+  name = "Pine Tree",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/pine-tree1.obj",
+  simpleMesh = "models/decorations/pine-tree1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPineSpecial",
+  name = "Pine Tree Special",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/pine-special.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTree1",
+  name = "Tree 1",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/tree1.obj",
+  simpleMesh = "models/decorations/tree1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTree2",
+  name = "Tree 2",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/tree2.obj",
+  simpleMesh = "models/decorations/tree2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTree3",
+  name = "Tree 3",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/tree3.obj",
+  simpleMesh = "models/decorations/tree3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoOrchardTree1",
+  name = "Orchard Tree1",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/tree-orchard1.obj",
+  simpleMesh = "models/decorations/tree-orchard1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoOrchardTree2",
+  name = "Orchard Tree2",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/tree-orchard2.obj",
+  simpleMesh = "models/decorations/tree-orchard2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoOrchardTree3",
+  name = "Orchard Tree3",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/tree-orchard3.obj",
+  simpleMesh = "models/decorations/tree-orchard3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTreeSakura",
+  name = "Sakura Tree",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/tree-sakura.obj",
+  simpleMesh = "models/decorations/tree-sakura-simple.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoTreeSakura1",
+  name = "Sakura Tree1",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/tree-sakura1.obj",
+  simpleMesh = "models/decorations/tree-sakura1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTreeElm",
+  name = "Elm Tree",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/tree-elm.obj",
+  simpleMesh = "models/decorations/tree-elm-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPalmTree",
+  name = "Palm Tree",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/palm-tree.obj",
+  simpleMesh = "models/decorations/palm-tree-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPlantPlot",
+  name = "Plant Plot",
+  group = "DecoGrpTrees",
+  wind = 1,
+  mesh = "models/decorations/plant-plot.obj",
+  simpleMesh = "models/decorations/plant-plot-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPlantPod",
+  name = "Plant Pod",
+  group = "DecoGrpTrees",
+  wind = 0,
+  mesh = "models/decorations/plant-pod.obj",
+  simplesmesh =  "models/decorations/plant-pod-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPlantPodWire",
+  name = "Plant Pod Wire",
+  group = "DecoGrpTrees",
+  wind = 0,
+  scale = "x",
+  mesh = "models/decorations/plant-pod-wire.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalloons1",
+  name = "Balloons 1",
+  group = "DecoGrpPark",
+  wind = 1,
+  mesh = "models/decorations/balloons1.obj",
+  simpleMesh = "models/decorations/balloons1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalloons2",
+  name = "Balloons 2",
+  group = "DecoGrpPark",
+  wind = 1,
+  mesh = "models/decorations/balloons2.obj",
+  simpleMesh = "models/decorations/balloons2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPawn",
+  name = "Chess Pawn",
+  group = "DecoGrpPark",
+  wind = 1,
+  mesh = "models/decorations/chess-pawn.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoKnight",
+  name = "Chess Knight",
+  group = "DecoGrpPark",
+  wind = 1,
+  mesh = "models/decorations/chess-knight.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBishop",
+  name = "Chess Bishop",
+  group = "DecoGrpPark",
+  wind = 1,
+  mesh = "models/decorations/chess-bishop.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRook",
+  name = "Chess Rook",
+  group = "DecoGrpPark",
+  wind = 1,
+  mesh = "models/decorations/chess-rook.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoQueen",
+  name = "Chess Queen",
+  group = "DecoGrpPark",
+  wind = 1,
+  mesh = "models/decorations/chess-queen.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoKing",
+  name = "Chess King",
+  group = "DecoGrpPark",
+  wind = 1,
+  mesh = "models/decorations/chess-king.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHelipad",
+  name = "Helipad",
+  group = "DecoGrpAmenity",
+  mesh = "models/decorations/helipad.obj",
+  simpleMesh = "models/decorations/helipad-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHelipad1",
+  name = "Helipad1",
+  group = "DecoGrpAmenity",
+  mesh = "models/decorations/helipad1.obj",
+  simpleMesh = "models/decorations/helipad-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntennaSatellite",
+  name = "Satellite Antenna",
+  group = "DecoGrpAntennas",
+  wind = 0.1,
+  mesh = "models/decorations/antenna-satellite.obj",
+  simpleMesh = "models/decorations/Antenna-satellite-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntennaTower",
+  name = "Satellite Antenna Tower",
+  group = "DecoGrpAntennas",
+  wind = 0.1,
+  mesh = "models/decorations/antenna-tower.obj",
+  simpleMesh = "models/decorations/Antenna-tower-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntenna",
+  name = "Antenna - Red and White",
+  group = "DecoGrpAntennas",
+  wind = 0.1,
+  mesh = "models/decorations/antenna.obj",
+  simpleMesh = "models/decorations/antenna-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntenna1",
+  name = "Antenna - RKO",
+  group = "DecoGrpAntennas",
+  wind = 0.1,
+  mesh = "models/decorations/antenna-1.obj",
+  simpleMesh = "models/decorations/antenna-1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntenna2",
+  name = "Antenna - TV",
+  group = "DecoGrpAntennas",
+  wind = 0.5,
+  mesh = "models/decorations/antenna-2.obj",
+  simpleMesh = "models/decorations/antenna-2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntenna3",
+  name = "Antenna - Spike",
+  group = "DecoGrpAntennas",
+  wind = 0.1,
+  mesh = "models/decorations/antenna-3.obj",
+  simpleMesh = "models/decorations/antenna-3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntennaOneWorld",
+  name = "Antenna One World",
+  group = "DecoGrpAntennas",
+  wind = 0.1,
+  mesh = "models/decorations/antenna-oneworld.obj",
+  simpleMesh = "models/decorations/antenna-oneworld-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntenna101",
+  name = "Antenna 101",
+  group = "DecoGrpAntennas",
+  wind = 0.1,
+  mesh = "models/decorations/antenna-101.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntennaHouse",
+  name = "Antenna House",
+  group = "DecoGrpAntennas",
+  wind = 0.5,
+  mesh = "models/decorations/antenna-house.obj",
+  simpleMesh = "models/decorations/antenna-house-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAntennaEmpire",
+  name = "Antenna Empire State",
+  group = "DecoGrpAntennas",
+  wind = 0.1,
+  mesh = "models/decorations/antenna-empire.obj",
+  simpleMesh = "models/decorations/antenna-empire-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTank",
+  name = "Liquid Tank",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/tank.obj",
+  simpleMesh = "models/decorations/tank-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTankShort",
+  name = "Liquid Tank Short",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/tank-short.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSand",
+  name = "Sand Pile",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/sand-pile.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCoalPile",
+  name = "Coal Pile",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/coal-pile.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrainPile",
+  name = "Grain Pile",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/grain-pile.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrainPile1",
+  name = "Grain Pile 1",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/grain-pile1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrainPile2",
+  name = "Grain Pile 2",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/grain-pile2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrainPile3",
+  name = "Grain Pile 3",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/grain-pile3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrainPile4",
+  name = "Grain Pile 4",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/grain-pile4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrainPile5",
+  name = "Grain Pile 5",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/grain-pile5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSmokestack",
+  name = "Smokestack",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/smokestack.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSmokestack1",
+  name = "Smokestack 1",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/smokestack1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSmokestack2",
+  name = "Smokestack 2",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/smokestack2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSmokestack3",
+  name = "Smokestack 3",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/smokestack3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSmokestack4",
+  name = "Smokestack 4",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/smokestack4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSmokestack5",
+  name = "Smokestack 5",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/smokestack5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTankHorizontal",
+  name = "Tank Horizontal",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/tank-horizontal.obj",
+  simpleMesh = "models/decorations/tank-horizontal-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBlastFurnace",
+  name = "Blast Furnace",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/blast-furnace.obj",
+  simpleMesh = "models/decorations/blast-furnace-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoIndustrialFence",
+  name = "Industrial Fence",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/industrial-fence.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrashPile1",
+  name = "Trash Pile1",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/trash-pile1.obj",
+  simpleMesh = "models/decorations/trash-pile1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrashPile2",
+  name = "Trash Pile2",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/trash-pile2.obj",
+  simpleMesh = "models/decorations/trash-pile2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrashPile3",
+  name = "Trash Pile3",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/trash-pile3.obj",
+  simpleMesh = "models/decorations/trash-pile3-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrashPile4",
+  name = "Trash Pile4",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/trash-pile4.obj",
+  simpleMesh = "models/decorations/trash-pile4-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrashPile5",
+  name = "Huge Trash Pile",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/trash-pile5.obj",
+  simpleMesh = "models/decorations/trash-pile5-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTirePile",
+  name = "Tire Pile",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/tire-pile1.obj",
+  simpleMesh = "models/decorations/tire-pile1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCardboardBox",
+  name = "Cardboard Box",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/cardboard-box.obj",
+  simpleMesh = "models/decorations/cardboard-box-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCardboardBox1",
+  name = "Cardboard Box1",
+  group = "DecoGrpIndustrial",
+  mesh = "models/decorations/cardboard1.obj",
+  simpleMesh = "models/decorations/cardboard1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoMicroPipe",
+  name = "Micro Pipe",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/micro-pipe.obj",
+  scale = "x"
+})
+
+
+addBuildingDecoration({
+  code = "DecoPipe",
+  name = "Pipe",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe.obj",
+  scale = "x"
+})
+
+addBuildingDecoration({
+  code = "DecoPipeShort",
+  name = "Pipe w/Fitting - Short",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-short.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeLong",
+  name = "Pipe w/Fitting - Long",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-long.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeUp",
+  name = "Pipe - Vertical",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-vertical.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeUpShort",
+  name = "Pipe w/Fitting - Vert. Short",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-vertical-short.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeUpLong",
+  name = "Pipe w/Fitting - Vert. Long",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-vertical-long.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeElbow",
+  name = "Pipe - Elbow",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-elbow.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeElbowUp",
+  name = "Pipe - Elbow Up",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-elbow-up.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeElbowDown",
+  name = "Pipe - Elbow Down",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-elbow-down.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeElbowTight",
+  name = "Pipe - Elbow Tight",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-elbow-tight.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeElbowTightUp",
+  name = "Pipe - Elbow Tight Up",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-elbow-tight-up.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeElbowTightDown",
+  name = "Pipe - Elbow Tight Down",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-elbow-tight-down.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeTee",
+  name = "Pipe - Tee",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-tee.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeTeeUp",
+  name = "Pipe - Tee Up",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-tee-up.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeTeeDown",
+  name = "Pipe - Tee Down",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-tee-down.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeTeeUpDown",
+  name = "Pipe - Tee Up and Down",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-tee-up-and-down.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeCross",
+  name = "Pipe - Cross",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-cross.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeCrossVertical",
+  name = "Pipe - Cross Vertical",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-cross-vertical.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeValve",
+  name = "Pipe - Side Valve",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-valve.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeValveTop",
+  name = "Pipe - Top Valve",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-valve-top.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeValveVertical",
+  name = "Pipe - Vertical Valve",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-valve-vertical.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeMeter",
+  name = "Pipe - Meter",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-meter.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPipeMeterVertical",
+  name = "Pipe - Meter Vertical",
+  group = "DecoGrpPipes",
+  mesh = "models/decorations/pipe-meter-vertical.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFireEscape",
+  name = "Fire Escape",
+  group = "DecoGrpCatwalks",
+  mesh = "models/decorations/fire-escape.obj",
+  scale = "xz"
+})
+
+addBuildingDecoration({
+  code = "DecoCatwalk",
+  name = "Catwalk",
+  group = "DecoGrpCatwalks",
+  mesh = "models/decorations/catwalk.obj",
+  scale = "x"
+})
+
+addBuildingDecoration({
+  code = "DecoCatwalkShort",
+  name = "Catwalk Short",
+  group = "DecoGrpCatwalks",
+  mesh = "models/decorations/catwalk-short.obj",
+  scale = "x"
+})
+
+addBuildingDecoration({
+  code = "DecoCatwalkRampShort",
+  name = "Catwalk Ramp (5)",
+  group = "DecoGrpCatwalks",
+  mesh = "models/decorations/catwalk-ramp-short.obj",
+  scale = "xz"
+})
+
+addBuildingDecoration({
+  code = "DecoCatwalkRampMedium",
+  name = "Catwalk Ramp (6)",
+  group = "DecoGrpCatwalks",
+  mesh = "models/decorations/catwalk-ramp-medium.obj",
+  scale = "xz"
+})
+
+addBuildingDecoration({
+  code = "DecoCatwalkRampLong",
+  name = "Catwalk Ramp (10)",
+  group = "DecoGrpCatwalks",
+  mesh = "models/decorations/catwalk-ramp-long.obj",
+  scale = "xz"
+})
+
+addBuildingDecoration({
+  code = "DecoCatwalkTurn",
+  name = "Catwalk Turn",
+  group = "DecoGrpCatwalks",
+  mesh = "models/decorations/catwalk-turn.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCatwalkTee",
+  name = "Catwalk Tee",
+  group = "DecoGrpCatwalks",
+  mesh = "models/decorations/catwalk-tee.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCatwalkCap",
+  name = "Catwalk Cap",
+  group = "DecoGrpCatwalks",
+  mesh = "models/decorations/catwalk-cap.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrashBin",
+  name = "Trash Bin",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/trash-bin.obj",
+   simpleMesh = "models/decorations/trash-bin-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrashCan",
+  name = "Trash Can",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/trash-can.obj",
+   simpleMesh = "models/decorations/trash-bin-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTable1",
+  name = "Table1",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/table-small.obj",
+   simpleMesh = "models/decorations/table-small-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTable2",
+  name = "Table2",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/table-big.obj",
+  simpleMesh = "models/decorations/table-big-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHvac",
+  name = "Air conditioner",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/hvac.obj",
+  simpleMesh = "models/decorations/hvac-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHvac1",
+  name = "Air conditioner1",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/hvac1.obj",
+  simpleMesh = "models/decorations/hvac1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHvac2",
+  name = "Air conditioner2",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/hvac2.obj",
+  simpleMesh = "models/decorations/hvac1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHvac3",
+  name = "Air conditioner3",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/hvac3.obj",
+  simpleMesh = "models/decorations/hvac1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHvac4",
+  name = "Air conditioner4",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/hvac4.obj",
+  simpleMesh = "models/decorations/hvac1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHvac5",
+  name = "Air conditioner5",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/hvac5.obj",
+  simpleMesh = "models/decorations/hvac5-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSolarPanel",
+  name = "Solar Panel",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/solar-panel.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSolarPanel",
+  name = "Solar Panel1",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/solar-panel-1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRoof",
+  name = "House Roof",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/roof1.obj",
+  simpleMesh = "models/decorations/roof1-simple.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoRoof2",
+  name = "House Roof2",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/roof2.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoRoof3",
+  name = "House Roof3",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/roof3.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoGardenFence",
+  name = "Garden Fence",
+  group = "DecoGrpWalls",
+  mesh = "models/decorations/garden-fence1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPorch1",
+  name = "House Porch",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/porch1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPorch2",
+  name = "House Porch 2",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/porch2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoDoor",
+  name = "House Door",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/door1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoDoor1",
+  name = "House Door 1",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/door2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoChimney",
+  name = "Chimney",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/chimney.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoChimney1",
+  name = "Chimney 1",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/chimney1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoChimney2",
+  name = "Chimney 2",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/chimney2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGarageDoor",
+  name = "Garage Door",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/door-garage.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoPayphone",
+  name = "Pay Phone",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/payphone.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindow",
+  name = "Window",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/window.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindow1",
+  name = "Window1",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/window1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindow2",
+  name = "Window2",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/window2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindow3",
+  name = "Window3",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/window3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindow4",
+  name = "Window4",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/window4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindow5",
+  name = "Window5",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/window5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindow5",
+  name = "Window5",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/window5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindow6",
+  name = "Window6",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/window6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWindow7",
+  name = "Window7",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/window7.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalcony",
+  name = "Balcony",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/balcony.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalcony1",
+  name = "Balcony 1",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/balcony-1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalcony2",
+  name = "Balcony 2",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/balcony-2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalcony3",
+  name = "Balcony 3",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/balcony-3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalcony4",
+  name = "Balcony 4",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/balcony-4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalcony5",
+  name = "Balcony 5",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/balcony-5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalcony5",
+  name = "Balcony 5",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/balcony-5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBalcony6",
+  name = "Balcony 6",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/balcony-6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoClothLine",
+  name = "Cloth Line",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/cloth-line.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoClothLine1",
+  name = "Cloth Line 1",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/cloth-line1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoClothLine2",
+  name = "Cloth Line 2",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/cloth-line2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoClothLine3",
+  name = "Cloth Line 3",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/cloth-line3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoClothLine4",
+  name = "Cloth Line 4",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/cloth-line4.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoClothLine5",
+  name = "Cloth Line 5",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/cloth-line5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoWaterBarrel",
+  name = "Water Barrel",
+  group = "DecoGrpResidential",
+  mesh = "models/decorations/water-barrel.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPath",
+  name = "Path",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/path.obj",
+  simpleMesh = "models/decorations/path-simple.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoPavement",
+  name = "Pavement",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/path.obj",
+  simpleMesh = "models/decorations/path-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPavementParking",
+  name = "Pavement",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/path.obj",
+  simpleMesh = "models/decorations/path-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPavementRound",
+  name = "Pavement Round",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/round-path.obj",
+  simpleMesh = "models/decorations/path-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSedanRed",
+  name = "Car Red",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/sedan-red.obj",
+  simpleMesh = "models/decorations/sedan-red-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTrailer",
+  name = "Trailer",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/trailer.obj",
+  simpleMesh = "models/decorations/trailer-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoAmbulance",
+  name = "Ambulance",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/ambulance.obj",
+  simpleMesh = "models/decorations/ambulance-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTractor",
+  name = "Tractor",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/tractor.obj",
+  simpleMesh = "models/decorations/tractor-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBusSchool",
+  name = "School Bus",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/bus-school.obj",
+  simpleMesh = "models/decorations/bus-school-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoTruck",
+  name = "Box Truck",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/box-truck.obj",
+  simpleMesh = "models/decorations/box-truck-food1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFoodTruck1",
+  name = "Food Truck1",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/box-truck-food1.obj",
+  simpleMesh = "models/decorations/box-truck-food1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFoodTruck2",
+  name = "Food Truck2",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/box-truck-food2.obj",
+  simpleMesh = "models/decorations/box-truck-food2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBigTruck",
+  name = "Truck",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/truck1.obj",
+  simpleMesh = "models/decorations/truck1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBigTruck2",
+  name = "Truck 2",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/truck2.obj",
+  simpleMesh = "models/decorations/truck1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBigTruck3",
+  name = "Truck 3",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/truck3.obj",
+  simpleMesh = "models/decorations/truck1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoBigTruck4",
+  name = "Truck 4",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/truck4.obj",
+  simpleMesh = "models/decorations/truck1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSailboat",
+  name = "Sailboat",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/sailboat.obj",
+  wind = 1,
+  simpleMesh = "models/decorations/sailboat-simple.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoContainerShip",
+  name = "Container Ship",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/container-ship.obj",
+  simpleMesh = "models/decorations/container-ship.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoContainerShip2",
+  name = "Container Ship 2",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/container-ship2.obj",
+  simpleMesh = "models/decorations/container-ship.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoContainerShip3",
+  name = "Container Ship 3",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/container-ship3.obj",
+  simpleMesh = "models/decorations/container-ship.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoContainerShip4",
+  name = "Container Ship 4",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/container-ship4.obj",
+  simpleMesh = "models/decorations/container-ship.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoContainerShip5",
+  name = "Container Ship 5",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/container-ship5.obj",
+  simpleMesh = "models/decorations/container-ship.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoContainerShip6",
+  name = "Container Ship 6",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/container-ship6.obj",
+  simpleMesh = "models/decorations/container-ship.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoContainerShip7",
+  name = "Container Ship 7",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/container-ship7.obj",
+  simpleMesh = "models/decorations/container-ship.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoContainerShip2",
+  name = "Container Ship 2",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/container-ship2.obj",
+  simpleMesh = "models/decorations/container-ship.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSailboat1",
+  name = "Sailboat Sail Down",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/sailboat1.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/sailboat-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoKayak1",
+  name = "Kayak",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/kayak1.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/kayak1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFishingShip1",
+  name = "Fishing Ship",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/fishing-ship1.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/fishing-ship1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoYacht1",
+  name = "Yacht 1",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/yacht1.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/yacht1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoYacht2",
+  name = "Yacht 2",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/yacht2.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/yacht2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoMotorboat1",
+  name = "Motorboat",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/motorboat1.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/motorboat1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoMotorboat2",
+  name = "Motorboat",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/motorboat2.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/motorboat1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoMotorboat3",
+  name = "Motorboat",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/motorboat3.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/motorboat1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoMotorboat4",
+  name = "Motorboat",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/motorboat4.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/motorboat1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCruiseShip",
+  name = "Cruise Ship",
+  group = "DecoGrpBoats",
+  mesh = "models/decorations/cruise-ship.obj",
+  wind = 0.1,
+  simpleMesh = "models/decorations/cruise-ship-simple.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoWoodCar",
+  name = "Train Wood Car",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/wood-car.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrainCar",
+  name = "Train Grain Car",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/grain-car.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSedanBlue",
+  name = "Car Blue",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/sedan-blue.obj",
+  simpleMesh = "models/decorations/sedan-blue-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSedanBlack",
+  name = "Car Black",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/sedan-black.obj",
+  simpleMesh = "models/decorations/sedan-black-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSedanGray",
+  name = "Car Gray",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/sedan-gray.obj",
+  simpleMesh = "models/decorations/sedan-gray-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSedanGreen",
+  name = "Car Green",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/sedan-green.obj",
+  simpleMesh = "models/decorations/sedan-green-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSedanWhite",
+  name = "Car White",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/sedan-white.obj",
+  simpleMesh = "models/decorations/sedan-white-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoSedanPolice",
+  name = "Police Car",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/sedan-police.obj",
+  simpleMesh = "models/decorations/sedan-white-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPickupBlue",
+  name = "Pickup Blue",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/pickup-blue.obj",
+  simpleMesh = "models/decorations/pickup-blue-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPickupRed",
+  name = "Pickup Red",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/pickup-red.obj",
+  simpleMesh = "models/decorations/pickup-red-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPickupBlack",
+  name = "Pickup Black",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/pickup-black.obj",
+  simpleMesh = "models/decorations/pickup-black-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPickupGray",
+  name = "Pickup Gray",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/pickup-gray.obj",
+  simpleMesh = "models/decorations/pickup-gray-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRuinedCar1",
+  name = "Abandoned Car 1",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/ruined-car1.obj",
+  simpleMesh = "models/decorations/ruined-car1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRuinedCar2",
+  name = "Abandoned Car 2",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/ruined-car2.obj",
+  simpleMesh = "models/decorations/ruined-car2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoPickupGreen",
+  name = "Pickup Green",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/pickup-green.obj",
+  simpleMesh = "models/decorations/pickup-green-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingSpot",
+  name = "Parking Spots",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/parking.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingSpot1",
+  name = "Parking Spots1",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/parking1.obj",
+})
+
+
+addBuildingDecoration({
+  code = "DecoParkingSpot2",
+  name = "Parking Spots2",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/parking2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingSpotSquare",
+  name = "Parking Spots Square",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/parking-1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingSpotYellow",
+  name = "Parking Spots Yellow",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/parking-2.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingSpotLegacy",
+  name = "Parking Legacy",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/parking-legacy.obj",
+  scale = "x,y",
+  simpleMesh = "models/decorations/parking-legacy.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingSpotLegacy1",
+  name = "Parking Legacy1",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/parking-legacy1.obj",
+  scale = "x,y",
+  simpleMesh = "models/decorations/parking-legacy1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingSpotLegacy2",
+  name = "Parking Legacy2",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/parking-legacy2.obj",
+  scale = "x,y",
+  simpleMesh = "models/decorations/parking-legacy2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoChecker",
+  name = "Chess Board",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/checker.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrassPatch",
+  name = "GrassPatch",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/grass-patch.obj",
+  scale = "x,y",
+  simpleMesh = "models/decorations/grass-patch-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrassHill",
+  name = "Grass Hill",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/grass-hill.obj",
+  scale = "x,y",
+  simpleMesh = "models/decorations/grass-hill-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrassHill1",
+  name = "Grass Hill1",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/grass-hill1.obj",
+  scale = "x,y",
+  simpleMesh = "models/decorations/grass-hill1-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrassHill2",
+  name = "Grass Hill2",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/grass-hill2.obj",
+  scale = "x,y",
+  simpleMesh = "models/decorations/grass-hill2-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoGrassPatch1",
+  name = "Grass Hill1",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/grass-hill.obj",
+  simpleMesh = "models/decorations/grass-hill-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRooftopDetail",
+  name = "Rooftop Detail",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/rooftop-detail.obj",
+  scale = "x",
+  simpleMesh = "models/decorations/rooftop-detail-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRooftopDetail1",
+  name = "Rooftop Detail1",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/rooftop-detail1.obj",
+  simpleMesh = "models/decorations/rooftop-detail-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRooftopDetail2",
+  name = "Rooftop Detail2",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/rooftop-detail2.obj",
+  scale = "x",
+  simpleMesh = "models/decorations/rooftop-detail-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRooftopDetail3",
+  name = "Rooftop Detail3",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/rooftop-detail3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRooftopDetail4",
+  name = "Rooftop Detail4",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/rooftop-detail4.obj",
+  scale = "x",
+})
+
+addBuildingDecoration({
+  code = "DecoRooftopDetail5",
+  name = "Rooftop Detail5",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/rooftop-detail5.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRooftopDetail6",
+  name = "Rooftop Detail6",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/rooftop-detail6.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoRooftopDetail7",
+  name = "Rooftop Detail7",
+  group = "DecoGrpFloor",
+  mesh = "models/decorations/rooftop-detail7.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingRoof",
+  name = "Parking Garage",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/parking-roof.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingWithDoor",
+  name = "Parking Garage Door",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/parking-roof-door.obj",
+  simpleMesh = "models/decorations/parking-roof-door-simple.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoParkingSpotSingle",
+  name = "Parking Spot",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/parking-single.obj",
+  simpleMesh = "models/decorations/home-wheels-simple.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoHomeWheels",
+  name = "Mobile Home Base",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/home-wheels.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLightCone",
+  name = "Light Cone",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/light-cone.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoLightHorizontal",
+  name = "Light Horizontal",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/light-horizontal.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoLightHorizontalRed",
+  name = "Light Horizontal Red",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/light-horizontal-red.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoLightHorizontalGreen",
+  name = "Light Horizontal Green",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/light-horizontal-green.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoLightHorizontalDarkGreen",
+  name = "Light Horizontal Dark Green",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/light-horizontal-dark-green.obj",
+  scale = "y",
+})
+
+addBuildingDecoration({
+  code = "DecoLightVertical",
+  name = "Light Vertical",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/light-vertical.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoLightVerticalRed",
+  name = "Light Vertical Red",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/light-vertical-red.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoLightVerticalGreen",
+  name = "Light Vertical Green",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/light-vertical-green.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoLightVerticalDarkGreen",
+  name = "Light Vertical Dark Green",
+  group = "DecoGrpSigns",
+  mesh = "models/decorations/light-vertical-dark-green.obj",
+  scale = "z",
+})
+
+addBuildingDecoration({
+  code = "DecoDocksCrane1",
+  name = "Container Crane",
+  group = "DecoGrpVehicles",
+  mesh = "models/decorations/docks-crane1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFireworks1",
+  name = "Fireworks 1",
+  group = "DecoGrpVfx",
+  mesh = "models/decorations/fireworks1.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFireworks2",
+  name = "Fireworks 2",
+  group = "DecoGrpVfx",
+  mesh = "models/decorations/fireworks2.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoFireworks3",
+  name = "Fireworks 3",
+  group = "DecoGrpVfx",
+  mesh = "models/decorations/fireworks3.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoMockup",
+  name = "Mockup",
+  group = "DecoGrpTest",
+  mesh = "models/decorations/mockup.obj",
+})
+
+addBuildingDecoration({
+  code = "DecoCreepyBillboard",
+  name = "Mockup1",
+  group = "DecoGrpTest",
+  mesh = "models/decorations/creepy-billboard.obj",
+})

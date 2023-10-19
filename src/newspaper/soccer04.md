@@ -1,0 +1,5 @@
+$(function() team1 = randomTeam(); return team1 end)()$ Loses Key Game to $(function() team2 = randomTeam(); return team2 end)()$ $formatInt(randomInt(1,3))$-6
+
+![](newspaper/images/soccer04.png)
+
+After a devastating defeat last week, the $cityName()$ $team1$ hoped to make a triumphant return to form in their game against the $randomCityName()$ $team2$. And right out of the gate they seemed set to do so, with the $team1$ establishing a lead within the first fifteen minutes on the game clock thanks to several highlight reel worthy plays by $team1$'s up-and-coming striker $randomMansName()$. In the second half, however, the mirage of victory rapidly dissolved beneath the stadium lights, as the $team2$ answered back with goal after goal. An injury to $team1$ standout defender $randomMansName()$ resulted in a substitution that further crippled the defense and contributed to their painful defeat. They fall to the loser's bracket, playing a game against the $randomCityName()$ $randomTeam()$ next weekend to see who stays in the playoffs and who's headed back to practice for next season. 
