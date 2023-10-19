@@ -28,3 +28,10 @@ These instructions are rough and intended as guideposts. I haven't had the time 
         ./fix-cmake.sh
         ./fast.sh
 
+### Mac OS X
+
+- Ask ChatGippity
+
+
+
+
