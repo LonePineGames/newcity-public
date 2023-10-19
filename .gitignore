@@ -24,7 +24,6 @@ callgrind.*
 /build*/
 /bin-*/*
 /distrib/build_*/*
-/external/
 /enc_temp_folder/
 /src/blueprints.txt
 /src/newcity
