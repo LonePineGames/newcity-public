@@ -30,7 +30,7 @@ For cars, travellers consider time driving, including traffic, the cost of fuel,
 
 In $cityName()$ circa $formatYear(now())$, citizens value their time at $formatMoney(inflate(CValueOfTime))$ per hour, so they'll wait $formatDuration(1/(24*inflate(CValueOfTime)))$ to save one dollar.
 
-Based on these factors, people choose to go by car or transit. They choose the faster and/or cheaper option, in their weighted estimate. You can discover how people are travelling around your city using the [[tools/toolQuery|Route Inspector]].
+Based on these factors, people choose to go by car or transit. They choose the faster and/or cheaper option, in their weighted estimate. Your city's [[budget/budgetfueltaxincome|![](IconFuel)gas tax]] affects this choice. You can discover how people are travelling around your city using the [[tools/toolQuery|Route Inspector]].
 
 Bad traffic can strangle a city. If a trip will take more than $formatInt(CMaxCommute)$ hours, citizens will just stay home. If the trip was to work, they are fired and must look for another job. This can raise unemployment and stifle growth.
 

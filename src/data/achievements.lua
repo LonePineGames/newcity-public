@@ -936,7 +936,7 @@ addAchievement({
     " by encouraging people to drive less. But it might also" ..
     " hurt the economy by increasing the cost of doing business.",
   condition = function()
-      return get(StatTransitTrips) > 500 and get(StatTimeSpentTraveling) > 50
+      return get(StatTransitTrips) > 0 and get(StatTimeSpentTraveling) > 50
   end,
   effect = "FFuelTax",
   hint = "",

@@ -12,6 +12,7 @@ Mandatory spending includes:
 * [[budget/budgetservicesexpenses|Community Services]]
 * [[budget/budgetuniversityexpenses|University]]
 * [[budget/budgettransitexpenses|Transit Operations]]
+* [[budget/budgetrepairexpenses|Infrastructure Repairs]]
 
 See also:
 * [[budget/budgettotaldiscretionary|Total Discretionary]]

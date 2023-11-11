@@ -10,6 +10,7 @@ Sources of income include:
 * [[budget/budgetpropertytax|Property Tax]]
 * [[budget/budgetsalestax|Sales Tax]]
 * [[budget/budgetfinesandfeesincome|Fines and Fees]]
+* [[budget/budgetfueltaxincome|Gas Tax]]
 * [[budget/budgetassetsalesincome|Asset Sales]]
 * [[budget/budgettransitincome|Transit Income]]
 
