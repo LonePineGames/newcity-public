@@ -583,37 +583,50 @@ void findRoadLocation(Line mouseLine, item ndx, bool shift) {
     raiseCursor = true;
     item nearbyElem = nearestElement(mouseLine, true);
 
-    if (nearbyElem != 0) {
-      Line l = getLine(nearbyElem);
-      vec3 elemLoc = pointOfIntersection(l, mouseLine);
-      elemLoc = smartUnitize(elemLoc);
-      elemLoc = nearestPointOnLine(elemLoc, l);
-
-      if (pointLineDistance(elemLoc, mouseLine) <
-          c(CSnapDistance) * (currentSystem == roadSystem ? 1 : 1)) {
-
-        if (nearbyElem > 0) {
-          if (length(elemLoc-l.start) < c(CSnapDistance)) {
-            nearbyElem = getEdge(nearbyElem)->ends[0];
-          } else if (length(elemLoc-l.end) < c(CSnapDistance)) {
-            nearbyElem = getEdge(nearbyElem)->ends[1];
-          }
-          if (nearbyElem < 0) {
-            elemLoc = getNode(nearbyElem)->center;
-          }
-        }
-
-        highlightElement = nearbyElem;
-        roadCursorLoc = elemLoc;
-        if (!shift) {
-          roadCursorLoc.z = pointOnLandNatural(roadCursorLoc).z + c(CZTileSize) * elevation.zOffset;
-          if (abs(roadCursorLoc.z - elemLoc.z) > 4) {
-            highlightElement = 0;
-          }
-        }
-        raiseCursor = false;
-      }
+    if (nearbyElem == 0) {
+      roadEnd[ndx] = roadCursorLoc;
+      return;
     }
+
+    Line l = getLine(nearbyElem);
+    vec3 elemLoc = pointOfIntersection(l, mouseLine);
+    elemLoc = smartUnitize(elemLoc);
+    elemLoc = nearestPointOnLine(elemLoc, l);
+    item newElementToSnapTo = 0;
+
+    if (nearbyElem > 0) {
+      // First, let's check if we're near the ends of the edge.
+      Line endsPosition = getEdge(nearbyElem)->line;
+    
+      if (vecDistance(roadCursorLoc, endsPosition.start) < c(CSnapDistance)) {
+        newElementToSnapTo = getEdge(nearbyElem)->ends[0];
+      } else if (vecDistance(roadCursorLoc, endsPosition.end) < c(CSnapDistance)) {
+        newElementToSnapTo = getEdge(nearbyElem)->ends[1];
+      }
+    } else if (pointLineDistance(elemLoc, mouseLine) < c(CSnapDistance)) {
+      // If we're close to a node, say in the middle of a road,
+      // then let's snap to that instead.
+      newElementToSnapTo = nearbyElem;
+    }
+
+    if (newElementToSnapTo) {
+      // We will always hit a node here because at this point:
+      // 1) we snap to a nearby node.
+      // 2) we are on an edge and snapped to either the start node or end node.
+      elemLoc = getNode(newElementToSnapTo)->center;
+
+      highlightElement = newElementToSnapTo;
+      roadCursorLoc = elemLoc;
+
+      if (!shift) {
+        roadCursorLoc.z = pointOnLandNatural(roadCursorLoc).z + c(CZTileSize) * elevation.zOffset;
+        if (abs(roadCursorLoc.z - elemLoc.z) > 4) {
+          highlightElement = 0;
+        }
+      }
+      raiseCursor = false;
+    }
+
     roadEnd[ndx] = roadCursorLoc;
   }
 }
